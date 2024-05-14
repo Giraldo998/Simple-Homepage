@@ -1,0 +1,8 @@
+export {default as alaradoIconDark} from './alarado-icon-homepage-dark.svg'
+export {default as alaradoIcon} from './alarado-icon-homepage.svg'
+export {default as doneRing} from './Done_ring_round_fill.svg'
+export {default as heroImage} from './hero-image-simple-homepage.png'
+export {default as moonFillLight} from './Moon_fill_light.svg'
+export {default as moonFill} from './Moon_fill.svg'
+export {default as sunFill} from './Sun_fill.svg'
+export {default as sunFillLight} from './Sun_fill_light.svg'

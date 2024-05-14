@@ -1,0 +1,86 @@
+nav{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 16px;
+   font-weight: 600;
+   background-color: inherit;
+   z-index: 60;
+   transition: all .8s ease-in-out;
+}
+.logo-menu{
+   z-index: 80;
+}
+
+.alarado-dark{
+   position: absolute;
+   left: 0;
+}
+.menu-options{
+   display: flex;
+   color: #909193;
+}
+
+.menu-options a{
+   margin-inline: 20px;
+   text-decoration: none;
+   color: #909193;
+}
+
+.menu-options a:first-child{
+   color: #111729;
+}
+.menu-options a.active{
+   color: #FFFFFF;
+}
+
+.mode .container{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   width: 59px;
+   height: 29px;
+   background-color: #111729;
+   border: 2.5px solid #111729;
+   border-radius: 15px;
+   cursor: pointer;
+}
+
+.container.active{
+   background-color: #223344;
+   border: 2.5px solid #223344;
+}
+
+.container img{
+   z-index: 100;
+   transition: all .5s ease-in-out;
+}
+
+.container .moon-fill{
+   position: absolute;
+   right: 29px;
+   transition: all .6s ease-in-out;
+}
+
+.container .sun-fill-light{
+   position: absolute;
+   right: 0;
+   transition: all .6s ease-in-out;
+}
+
+.container .toggle-background{
+   position: absolute;
+   z-index: 10;
+   right: 0;
+   width: 25px;
+   height: 25px;
+   background-color: #FFFFFF;
+   border-radius: 50%;
+   transition: right .5s ease-in-out;   
+}
+
+.toggle-background.active{
+   right: 29px;
+   transition: right .4s ease-in-out;   
+}
