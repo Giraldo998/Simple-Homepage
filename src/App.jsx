@@ -1,6 +1,5 @@
 import { Navbar } from './components/ui/Navbar'
 import { doneRing, heroImage } from './assets'
-import { handleResizing } from './hooks/handleResizing';
 import './assets/css/App.css'
 import './assets/css/media.css'
 
